@@ -1,0 +1,128 @@
+{
+  "editor.fontSize": 12,
+  "editor.fontFamily": "Fira Code, Monaco, Menlo, 'Courier New', monospace",
+  "editor.defaultFormatter": "vscode.typescript-language-features",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit",
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.rulers": [120],
+  "editor.stickyScroll.enabled": true,
+  "editor.inlayHints.enabled": "on",
+  "editor.inlineSuggest.enabled": true,
+  "editor.definitionLinkOpensInPeek": true,
+  "editor.gotoLocation.multipleDefinitions": "goto",
+  "editor.gotoLocation.multipleReferences": "peek",
+  "editor.renderWhitespace": "boundary",
+  "editor.guides.bracketPairs": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.linkedEditing": true,
+  "editor.suggestSelection": "first",
+  "editor.acceptSuggestionOnEnter": "smart",
+  "editor.minimap.enabled": true,
+  "editor.codeLens": true,
+  "editor.lightbulb.enabled": "on",
+  "editor.unicodeHighlight.invisibleCharacters": true,
+  "editor.unicodeHighlight.ambiguousCharacters": true,
+  "editor.smoothScrolling": true,
+
+  "files.eol": "\n",
+  "files.autoSave": "onFocusChange",
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "files.exclude": {
+    "**/.DS_Store": true
+  },
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true,
+    "**/dist/**": true,
+    "**/.next/**": true,
+    "**/.angular/**": true
+  },
+
+  "search.exclude": {
+    "**/.git": true,
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/coverage": true,
+    "**/.next": true,
+    "**/.angular": true
+  },
+  "search.smartCase": true,
+  "search.useIgnoreFiles": true,
+  "search.searchOnType": true,
+  "search.seedWithNearestWord": true,
+
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "breadcrumbs.enabled": true,
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.wrapTabs": true,
+  "workbench.list.smoothScrolling": true,
+
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "typescript.tsx",
+    "javascript.jsx",
+    "html"
+  ],
+  "eslint.workingDirectories": [
+    {
+      "mode": "auto"
+    }
+  ],
+
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  },
+
+  "js/ts.updateImportsOnFileMove.enabled": "always",
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "javascript.preferences.importModuleSpecifier": "non-relative",
+  "typescript.suggest.autoImports": true,
+  "javascript.suggest.autoImports": true,
+  "typescript.inlayHints.parameterNames.enabled": "all",
+  "javascript.inlayHints.parameterNames.enabled": "all",
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.tsserver.maxTsServerMemory": 4096,
+
+  "git.enableSmartCommit": false,
+  "git.autofetch": true,
+  "git.pruneOnFetch": true,
+  "scm.diffDecorations": "all",
+  "diffEditor.ignoreTrimWhitespace": false,
+
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.scrollback": 10000,
+  "terminal.integrated.tabs.enabled": true,
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.integrated.cursorBlinking": true,
+
+  "debug.openDebug": "openOnSessionStart",
+  "debug.inlineValues": true,
+  "debug.showBreakpointsInOverviewRuler": true,
+
+  "security.workspace.trust.enabled": true,
+  "extensions.ignoreRecommendations": false,
+
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
