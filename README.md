@@ -2,7 +2,7 @@
 
 Hier sind meine persönlichen VS Code Settings zusammengefasst.
 
-Die Datei `vscode-settings.json` dient als wiederverwendbare Vorlage fuer Editor-, Suche-, Git-, Terminal- und TypeScript-Defaults in verschiedenen Projekten.
+Die Datei `settings.json` dient als wiederverwendbare Vorlage fuer Editor-, Suche-, Git-, Terminal- und TypeScript-Defaults in verschiedenen Projekten.
 
 ## Verwendung als Git-Submodul
 
