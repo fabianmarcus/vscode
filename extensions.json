@@ -1,0 +1,29 @@
+{
+  "recommendations": [
+    "openai.chatgpt",
+    "rangav.vscode-thunder-client",
+    "angular.ng-template",
+    "ms-azuretools.vscode-containers",
+    "firefox-devtools.vscode-firefox-debug",
+    "ms-azuretools.vscode-docker",
+    "docker.docker",
+    "dsznajder.es7-react-js-snippets",
+    "dbaeumer.vscode-eslint",
+    "toba.vsfire",
+    "donjayamanne.githistory",
+    "github.vscode-github-actions",
+    "ecmel.vscode-html-css",
+    "ritwickdey.liveserver",
+    "davidanson.vscode-markdownlint",
+    "ms-edgedevtools.vscode-edge-devtools",
+    "mongodb.mongodb-vscode",
+    "christian-kohler.npm-intellisense",
+    "ms-playwright.playwright",
+    "esbenp.prettier-vscode",
+    "tomwhite007.rename-angular-component",
+    "burkeholland.simple-react-snippets",
+    "stylelint.vscode-stylelint",
+    "bradlc.vscode-tailwindcss",
+    "wayou.vscode-todo-highlight"
+  ]
+}
