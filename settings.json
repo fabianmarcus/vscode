@@ -1,9 +1,8 @@
 {
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.patterns": {
-    "tsconfig.json": "tsconfig.*.json, env.d.ts, typed-router.d.ts",
-    "vite.config.*": "jsconfig*, vitest.config.*, cypress.config.*, playwright.config.*",
-    "package.json": "package-lock.json, pnpm*, .yarnrc*, yarn*, .eslint*, eslint*, .oxlint*, oxlint*, .oxfmt*, .prettier*, prettier*, .editorconfig, bun.lock, nub.lock"
+    "firebase.json": ".firebaserc, firebase.*, storage.*, firestore.*",
+    "package.json": "package-lock.json, tsconfig.*, env.d.ts, typed-router.d.ts, next.config*, next-env.d.ts, jsconfig*, vitest.config.*, cypress.config.*, playwright.config.*, pnpm*, .yarnrc*, yarn*, .eslint*, eslint*, .oxlint*, oxlint*, .oxfmt*, .prettier*, prettier*, .editorconfig, bun.lock, nub.lock"
   },
   "editor.fontSize": 12,
   "editor.fontFamily": "Fira Code, Monaco, Menlo, 'Courier New', monospace",
@@ -94,12 +93,9 @@
   },
 
   "js/ts.updateImportsOnFileMove.enabled": "always",
-  "typescript.preferences.importModuleSpecifier": "non-relative",
-  "javascript.preferences.importModuleSpecifier": "non-relative",
-  "typescript.suggest.autoImports": true,
-  "javascript.suggest.autoImports": true,
-  "typescript.inlayHints.parameterNames.enabled": "all",
-  "javascript.inlayHints.parameterNames.enabled": "all",
+  "js/ts.preferences.importModuleSpecifier": "non-relative",
+  "js/ts.suggest.autoImports": true,
+  "js/ts.inlayHints.parameterNames.enabled": "all",
   "typescript.tsdk": "node_modules/typescript/lib",
   "typescript.tsserver.maxTsServerMemory": 4096,
 
